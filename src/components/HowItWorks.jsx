@@ -54,7 +54,7 @@ export default function HowItWorks() {
                   <path d="M12 9h8L16 17 12 9z" fill="white" opacity="0.35"/>
                 </svg>
                 <div>
-                  <p className="text-white text-[0.8rem] font-semibold leading-none mb-0.5">Varsa <span className="text-white/50 font-normal">· VarsaAI</span></p>
+                  <p className="text-white text-[0.8rem] font-semibold leading-none mb-0.5">Varsa</p>
                   <p className="text-[#9B8B72] text-[0.62rem]">Online · 48 live Dubai projects</p>
                 </div>
                 <div className="ml-auto flex items-center gap-1">

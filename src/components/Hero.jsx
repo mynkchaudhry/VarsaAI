@@ -174,7 +174,7 @@ export default function Hero() {
                 <div className="w-6 h-6 rounded-full bg-[#1A1A2E] flex items-center justify-center flex-shrink-0">
                   <span className="text-white text-[0.5rem] font-bold">AI</span>
                 </div>
-                <span className="text-[0.65rem] font-semibold text-[#0D0D0D]">VarsaAI</span>
+                <span className="text-[0.65rem] font-semibold text-[#0D0D0D]">Varsa</span>
               </div>
               <p className="text-[0.7rem] text-[#888480] leading-relaxed">Found 3 exact matches — all under budget, Marina views.</p>
             </div>

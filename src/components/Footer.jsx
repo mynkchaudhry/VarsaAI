@@ -20,7 +20,7 @@ export default function Footer() {
                 <path d="M7 9h4.5l4.5 9 4.5-9H25L16 23 7 9z" fill="#1A1A2E"/>
                 <path d="M12 9h8L16 17 12 9z" fill="#1A1A2E" opacity="0.35"/>
               </svg>
-              <span className="font-display text-xl font-bold">Varsa<span className="text-[#9B8B72]">AI</span></span>
+              <span className="font-display text-xl font-bold">Varsa</span>
             </div>
             <p className="text-[0.82rem] text-[#6E6E6E] leading-relaxed">
               AI-powered Dubai property search. 48 live projects, real data, zero fluff.
@@ -42,7 +42,7 @@ export default function Footer() {
           </nav>
         </div>
         <div className="border-t border-[#222] pt-6 flex flex-col sm:flex-row justify-between items-center gap-3">
-          <p className="text-[0.72rem] text-[#555]">© 2026 VarsaAI Dubai. All rights reserved.</p>
+          <p className="text-[0.72rem] text-[#555]">© 2026 Varsa. All rights reserved.</p>
           <p className="text-[0.72rem] text-[#555]">Built for Dubai. Powered by real data.</p>
         </div>
       </div>

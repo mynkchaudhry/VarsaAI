@@ -32,7 +32,7 @@ export default function Navbar() {
         <Link
           to="/"
           className="flex items-center gap-2.5 no-underline"
-          aria-label="VarsaAI home"
+          aria-label="Varsa home"
         >
           {/* Logo mark */}
           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
@@ -41,7 +41,7 @@ export default function Navbar() {
             <path d="M12 9h8L16 17 12 9z" fill="white" opacity="0.35"/>
           </svg>
           <span className="font-display text-[1.1rem] font-bold text-[#0D0D0D] tracking-tight leading-none">
-            Varsa<span className="text-[#1A1A2E]">AI</span>
+            Varsa
           </span>
         </Link>
 
