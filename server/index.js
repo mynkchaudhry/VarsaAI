@@ -58,7 +58,7 @@ const distPath = join(__dirname, '../dist')
 app.use(express.static(distPath))
 
 // SPA fallback — all other routes serve index.html
-app.get('*', (_req, res) => {
+app.get('/{*splat}', (_req, res) => {
   res.sendFile(join(distPath, 'index.html'))
 })
 
