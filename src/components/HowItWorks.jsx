@@ -74,7 +74,7 @@ export default function HowItWorks() {
                   </svg>
                   <div className="bg-white border border-[#E8E3DB] text-[#3A3A3A] text-[0.8rem] px-4 py-2.5 rounded-xl rounded-bl-sm leading-relaxed shadow-card">
                     Found 3 matching projects. Top pick: Marina Gate II — 2 Bed, 1,180 sqft, AED 1.72M.
-                    <br /><span className="text-[#1A1A2E] font-semibold">6.4% net yield</span> based on 342 recent DLD records.
+                    <br /><span className="text-[#1A1A2E] font-semibold">~6% net yield</span> based on current Dubai rental market data.
                   </div>
                 </div>
                 <div className="self-end bg-[#1A1A2E] text-white text-[0.8rem] px-4 py-2.5 rounded-xl rounded-br-sm leading-relaxed max-w-[85%]">

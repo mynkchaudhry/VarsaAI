@@ -1,17 +1,17 @@
 import { useCountUp } from '../hooks/useCountUp'
 
 const stats = [
-  { target: 48,    suffix: '',   label: 'Live Projects' },
-  { target: 1.2,   suffix: 'B AED', label: 'Transactions Analysed' },
-  { target: 6.4,   suffix: '%', label: 'Avg. Net Rental Yield' },
-  { target: 12000, suffix: '+', label: 'Buyers Helped' },
+  { target: 48,  suffix: '',   label: 'Live Dubai Projects' },
+  { target: 6.4, suffix: '%',  label: 'Avg. Rental Yield — Dubai Market' },
+  { target: 0,   suffix: '',   label: 'Commission Charged', prefix: 'AED ' },
+  { target: 100, suffix: '%',  label: 'Searches Backed by Web Data' },
 ]
 
-function StatItem({ target, suffix, label }) {
+function StatItem({ target, suffix, label, prefix = '' }) {
   const { value, ref } = useCountUp(target, suffix)
   return (
     <div ref={ref} className="flex flex-col gap-1 py-6 px-6 border-r border-[#E8E3DB] last:border-r-0">
-      <div className="font-display text-[2rem] font-bold text-[#1A1A2E] leading-none">{value}</div>
+      <div className="font-display text-[2rem] font-bold text-[#1A1A2E] leading-none">{prefix}{value}</div>
       <div className="text-[0.72rem] text-[#888480] font-medium">{label}</div>
     </div>
   )

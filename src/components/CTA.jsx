@@ -31,7 +31,7 @@ export default function CTA() {
                 Ready to find your<br />place in Dubai?
               </h2>
               <p className="text-[0.9rem] text-[#9B9BAA] leading-[1.78] mb-0">
-                Join 12,000 people who skipped the scroll and found their home through a conversation. Takes about 30 seconds to start.
+                Skip the endless portals. Describe what you need and let Varsa search Bayut, live project data, and the wider web — all at once.
               </p>
             </div>
 

@@ -9,8 +9,8 @@ const features = [
   {
     wide: true,
     icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>,
-    title: 'Fair price, or we\'ll tell you',
-    body: 'Real-time pricing from 50,000+ transactions. Know instantly whether a listing is a deal, fairly priced, or quietly overvalued — before you make an offer you regret.',
+    title: 'Live pricing context from the web',
+    body: 'Varsa searches Bayut and Property Finder in real time so you can see what comparable units are actually selling and renting for — not just what one portal happens to list.',
     extra: (
       <div className="flex items-end gap-1 mt-5 h-10" aria-label="Price trend chart">
         {[40, 55, 48, 65, 58, 74, 68, 85, 80, 100].map((h, i) => (
@@ -31,8 +31,8 @@ const features = [
   },
   {
     icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>,
-    title: 'Real agents, zero cold calls',
-    body: 'When you\'re ready, we connect you to a RERA-certified agent — only for the properties you matched with. No spam. No pressure.',
+    title: 'Reach out when you\'re ready',
+    body: 'Found something that fits? Use the enquiry form on any property page and the developer or agent will follow up directly — no cold calls, no obligation.',
   },
   {
     wide: true,
@@ -47,8 +47,8 @@ const features = [
   },
   {
     icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>,
-    title: 'We read the small print',
-    body: 'Upload an SPA or tenancy agreement. We\'ll flag the risks, explain confusing clauses, and tell you how the terms compare to market norms.',
+    title: 'Dubai property explained plainly',
+    body: 'Ask about DLD fees, mortgage eligibility, off-plan payment structures, or what a service charge actually covers — and get a straight answer, not a 10-page guide.',
   },
   {
     icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>,

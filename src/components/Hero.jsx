@@ -160,11 +160,11 @@ export default function Hero() {
             <div className="grid grid-cols-2 gap-4">
               <div className="card rounded-2xl p-5">
                 <div className="font-display text-[2rem] font-bold text-[#1A1A2E] leading-none mb-1">6.4%</div>
-                <p className="text-[0.75rem] text-[#888480]">Avg. net rental yield</p>
+                <p className="text-[0.75rem] text-[#888480]">Dubai avg. rental yield</p>
               </div>
               <div className="card rounded-2xl p-5">
-                <div className="font-display text-[2rem] font-bold text-[#1A1A2E] leading-none mb-1">AED 1.2B</div>
-                <p className="text-[0.75rem] text-[#888480]">Transactions tracked</p>
+                <div className="font-display text-[2rem] font-bold text-[#1A1A2E] leading-none mb-1">AED 0</div>
+                <p className="text-[0.75rem] text-[#888480]">Commission charged</p>
               </div>
             </div>
 

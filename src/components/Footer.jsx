@@ -14,8 +14,13 @@ export default function Footer() {
       <div className="max-w-screen-2xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between gap-8 mb-8">
           <div className="max-w-xs">
-            <div className="font-display text-xl font-bold mb-3">
-              Estate<span className="text-[#9B8B72]">AI</span>
+            <div className="flex items-center gap-2 mb-3">
+              <svg width="26" height="26" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                <rect width="32" height="32" rx="9" fill="#F8F5F0"/>
+                <path d="M7 9h4.5l4.5 9 4.5-9H25L16 23 7 9z" fill="#1A1A2E"/>
+                <path d="M12 9h8L16 17 12 9z" fill="#1A1A2E" opacity="0.35"/>
+              </svg>
+              <span className="font-display text-xl font-bold">Varsa<span className="text-[#9B8B72]">AI</span></span>
             </div>
             <p className="text-[0.82rem] text-[#6E6E6E] leading-relaxed">
               AI-powered Dubai property search. 48 live projects, real data, zero fluff.
